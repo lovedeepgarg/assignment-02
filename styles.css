@@ -1,0 +1,77 @@
+body {
+  color: #f8d10f;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  }
+  h1 {
+  font-size: 2em;
+  text-align: center;
+  }
+  h2 {
+    color: white;
+
+  }
+  p {
+  font-size: 1em;
+  line-height: 1.5;
+  }
+  a {
+  color: #fff;
+  }
+  img {
+  display: block;
+  margin: 0 auto;
+  }
+html {
+       background-image: url("../images/all-about.jpeg");
+       background-size: cover;
+       height: 100vh;
+       filter: brightness(70%);
+       background-attachment: fixed;
+    }
+.bordered-image {
+        border: 5px solid black;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    
+    figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+    
+    img {
+      max-width: 50%;
+      height: auto;
+      max-height: 200px;
+    }
+    
+    figcaption {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .image-container {
+      flex: 1;
+      margin-right: 10px; /* Adjust spacing between images if needed */
+  }
+  
+  .image-container:last-child {
+      margin-right: 0;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+      max-height: 200px; /* Adjust the maximum height of the images */
+  }
+  
